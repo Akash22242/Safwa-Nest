@@ -1,0 +1,25 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* your custom styles below */
+
+
+
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background:#0f172a; color:#e5e7eb; }
+a { color: #93c5fd; text-decoration: none; }
+
+
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background:#0f172a; color:#e5e7eb; }
+a { color: #93c5fd; text-decoration: none; }
+
+/* Navbar desktop layout ≥ 800px */
+@media (min-width: 800px) {
+  .nav-desktop { display: inline-flex !important; }
+  header button[aria-label="Toggle menu"] { display: none !important; }
+}
